@@ -1,16 +1,31 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Adarsh Bhardwaj</h1>
+<h3 align="center">B.Tech Student | Web Developer | Machine Learning Enthusiast</h3>
 
-<!--
-**Adarsh-Bhardwaj26/Adarsh-Bhardwaj26** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+Building intelligent web systems that solve real-world problems 🚀
+</p>
+## 🧠 About Me
 
-Here are some ideas to get you started:
+- 🎓 2nd Year B.Tech Student
+- 📊 Working on ML projects (Land Price Prediction)
+- 🌐 Learning Full Stack Development (JavaScript + Backend)
+- 📚 Improving DSA daily
+- 🚀 Goal: Become ML Engineer / AI Developer
+## 🛠 Tech Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 💻 Languages
+C++ | Python | JavaScript
+
+### 🌐 Web Development
+HTML | CSS | React | Node.js
+
+### 🤖 Machine Learning
+Scikit-Learn | Pandas | NumPy | Matplotlib
+
+### 🛢️ Databases
+MySQL | MongoDB
+## 🚀 Featured Projects
+
+### 🏡 Land Price Prediction System
+Machine Learning model predicting land prices using regression techniques and data preprocessing.
+
