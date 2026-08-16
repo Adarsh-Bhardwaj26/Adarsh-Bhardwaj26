@@ -13,7 +13,7 @@
 
 # 👨‍💻 About Me
 
-- 🎓 B.Tech in Computer Science, VIT Bhopal University (CGPA 8.74/10) — Expected 2028
+- 🎓 B.Tech in Computer Science, VIT Bhopal University  — Expected 2028
 - 🛠️ Full-stack developer building AI-integrated web applications
 - 🚀 Creator of **SSC Mocker** — an AI-assisted exam-prep platform for students without access to a mentor
 - 🤖 Built an **AI Resume Analyser** that turns raw resume feedback into clear, structured insight
