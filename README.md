@@ -1,34 +1,73 @@
 <!-- Animated Typing Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi+I'm+Adarsh+Bhardwaj;B.Tech+Student;Web+Developer+%7C+ML+Enthusiast;Building+AI+%2B+Web+Systems" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&lines=Hi+I'm+Adarsh+Bhardwaj;Full-Stack+Developer;Building+AI-Integrated+Web+Apps;Creator+of+SSC+Mocker" />
+</p>
+
+<p align="center">
+  <a href="mailto:adarshbhardwajlnc@gmail.com">✉️ Email</a> •
+  <a href="#">💼 LinkedIn</a> •
+  <a href="#">🐙 GitHub</a>
 </p>
 
 ---
 
 # 👨‍💻 About Me
 
-- 🎓 B.Tech Student  
-- 💡 Web Development Projects + Building ML
-- 📚 Actively improving Data Structures & Algorithms  
-- ⚡ Goal: Become a problem-solving focused Software Engineer who builds scalable and intelligent systems. 
+- 🎓 B.Tech in Computer Science, VIT Bhopal University (CGPA 8.74/10) — Expected 2028
+- 🛠️ Full-stack developer building AI-integrated web applications
+- 🚀 Creator of **SSC Mocker** — an AI-assisted exam-prep platform for students without access to a mentor
+- 🤖 Built an **AI Resume Analyser** that turns raw resume feedback into clear, structured insight
+- 🌱 Believe in learning whatever a project needs, rather than knowing everything upfront
+- ⚡ Goal: become a problem-solving focused engineer who builds practical, accessible systems
 
 ---
 
-# 📊 GitHub Stats
+## 🚀 Featured Projects
+
+### 📝 SSC Mocker — AI-Integrated Exam Prep Platform
+Full-stack platform where students take mock tests and get a clear picture of their current score, weak areas, and what to improve next.
+- Integrated **Google Gemini API** to analyze test history and generate structured JSON reports with a personalized improvement plan
+- OAuth-based authentication and RESTful APIs (Express, Axios), backed by **Prisma ORM** + **Supabase**
+- Built-in leaderboard to keep students motivated
+- **Tech:** React, Node.js, Express, Axios, Prisma, Supabase, OAuth, Google Gemini API
+
+### 📄 AI Resume Analyser
+Tool that evaluates uploaded resumes using the Google Gemini API and returns structured, easy-to-understand feedback.
+- Backend APIs built with Node.js/Express, data stored in MongoDB
+- Axios handles client-server communication
+- **Tech:** React, Node.js, Express, Axios, MongoDB, Google Gemini API
+
+---
+
+## 🛠 Tech Stack
+
+**Languages:** C++ · JavaScript · Python · Java · HTML5 · CSS3 · PHP
+
+**Frontend:** React.js · HTML5 · CSS3 · Responsive Design
+
+**Backend:** Node.js · Express.js · RESTful APIs · Axios · OAuth Authentication
+
+**Databases:** MongoDB · PostgreSQL · MySQL · Prisma · Supabase
+
+**AI Integration:** Google Gemini API · Structured JSON Data Generation & Analysis
+
+**DevOps & Tools:** Git/GitHub · Docker · Vercel · VS Code
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Adarsh-Bhardwaj26&show_icons=true&theme=tokyonight" width="48%" />
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Adarsh-Bhardwaj26&layout=compact&theme=tokyonight" width="48%" height="195px" />
 </p>
-
-
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=Adarsh-Bhardwaj26&theme=tokyonight" />
 </p>
 
 ---
 
-# 🧠 LeetCode Stats
+## 🧠 LeetCode Stats
 
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/Adarsh-Bhardwaj26?theme=dark&font=baloo&ext=contest" />
@@ -36,54 +75,15 @@
 
 ---
 
-# 🎯 2026 Goals
+## 🏅 Certifications
 
-- 🔥 Solve **365+ LeetCode Problems**
-- 🚀 Build 2 Full Stack Projects
-- 🤖 Deploy 1 Machine Learning Models
-- 📈 Strengthen DSA & System Design
-
----
-
-# 🛠 Tech Stack
-
-### 💻 Languages
-C++ | Python | JavaScript  
-
-### 🌐 Web Development
-HTML | CSS | React | Node.js  
-
-### 🤖 Machine Learning
-Scikit-Learn | Pandas | NumPy | Matplotlib  
-
-### 🛢 Databases
-MySQL | MongoDB  
-
----
-
-
-
-## 🚀 Featured Projects
-
-### 🏡 Land Price Prediction System
-
-A Machine Learning based web application that predicts land prices using regression techniques and real-world data preprocessing.
-
-🔹 Tech Stack: Python, Scikit-learn, Pandas, HTML, CSS  
-🔹 Type: ML + Web Integrated System  
-🔹 Status: Deployed  
-
-🌐 **Live Demo:**  
-👉 https://land-price-prediction-model-t70z.onrender.com
-
-
-
-
-### 🧠 AI-Based DSA Weakness Analyzer
-Tool to analyze coding performance and improvement areas.
+- **Bits and Bytes** — Coursera (Google): core computing & networking fundamentals
+- **FreeCodeCamp Responsive Web Design** — 98%
+- **NPTEL Cloud Computing** — cloud infrastructure & services
+- **LeetCode** — active contributor, algorithms & data structures
 
 ---
 
 <p align="center">
-  ⚡ "I build systems that solve real-world problems."
+  ⚡ "I build systems that put practical help within reach of the people who need it most."
 </p>
