@@ -1,0 +1,47 @@
+name: Metrics
+on:
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+  schedule:
+    - cron: "0 0 * * *"     # auto-refreshes daily at midnight UTC
+  push:
+    branches:
+      - main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Adarsh-Bhardwaj26
+          template: classic
+          base: header, activity, community, repositories, metadata
+
+          # --- Language breakdown ---
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
+
+          # --- Contribution calendar (circular year view) ---
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # --- Achievements / badges ---
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+
+          # --- Most used repos / stars ---
+          plugin_repositories: yes
+          plugin_repositories_featured: SSC-Mocker, AI-Resume-Analyser
+
+          # --- Lines of code changed, activity feed ---
+          plugin_lines: yes
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
