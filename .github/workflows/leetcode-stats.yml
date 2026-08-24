@@ -1,0 +1,28 @@
+name: LeetCode Stats
+on:
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+  schedule:
+    - cron: "30 0 * * *"    # auto-refreshes daily at 00:30 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  leetcode-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate LeetCode stats SVG
+        env:
+          LEETCODE_USERNAME: Adarsh-Bhardwaj26
+          OUTPUT_PATH: leetcode-stats.svg
+        run: python3 scripts/generate_leetcode_svg.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add leetcode-stats.svg
+          git diff --cached --quiet || git commit -m "Update LeetCode stats [automated]"
+          git push
