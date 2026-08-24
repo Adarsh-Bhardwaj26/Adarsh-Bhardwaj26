@@ -11,7 +11,14 @@ jobs:
   leetcode-stats:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+
+      - name: Verify script exists
+        run: |
+          echo "Repo contents:"
+          ls -la
+          echo "Scripts folder:"
+          ls -la scripts/ || (echo "::error::scripts/ folder not found at repo root. Make sure scripts/generate_leetcode_svg.py was committed." && exit 1)
 
       - name: Generate LeetCode stats SVG
         env:
