@@ -19,29 +19,16 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Adarsh-Bhardwaj26
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header
 
-          # --- Language breakdown ---
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_limit: 8
-          plugin_languages_threshold: 0%
-
-          # --- Contribution calendar (circular year view) ---
+          # --- Interactive contribution calendar ---
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # --- Achievements / badges ---
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-
-          # --- Most used repos / stars ---
-          plugin_repositories: yes
-          plugin_repositories_featured: SSC-Mocker, AI-Resume-Analyser
-
-          # --- Lines of code changed, activity feed ---
-          plugin_lines: yes
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
+          # --- Language breakdown (compact) ---
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_limit: 6
+          plugin_languages_threshold: 0%
+          plugin_languages_details: percentage
