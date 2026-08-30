@@ -20,30 +20,30 @@
       stroke-dasharray="10 999"
       stroke-linecap="round" transform="rotate(-90)"/>
     <text x="0" y="-2" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif" font-size="24" font-weight="700" fill="#ffffff">123</text>
-    <text x="0" y="18" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif" font-size="11" fill="#9a9ab0">/ 4033 Solved</text>
+    <text x="0" y="18" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif" font-size="11" fill="#9a9ab0">/ 4041 Solved</text>
   </g>
 
   <!-- Difficulty bars -->
   <text x="190" y="72" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#00e396">Easy</text>
-  <text x="420" y="72" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#9a9ab0" text-anchor="end">74/961</text>
+  <text x="420" y="72" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#9a9ab0" text-anchor="end">74/962</text>
   
     <rect x="190" y="78" width="270" height="8" rx="4" fill="#2a2b3d"/>
     <rect x="190" y="78" width="21" height="8" rx="4" fill="#00e396"/>
     
 
   <text x="190" y="108" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#ffb020">Medium</text>
-  <text x="420" y="108" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#9a9ab0" text-anchor="end">46/2105</text>
+  <text x="420" y="108" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#9a9ab0" text-anchor="end">46/2109</text>
   
     <rect x="190" y="114" width="270" height="8" rx="4" fill="#2a2b3d"/>
     <rect x="190" y="114" width="6" height="8" rx="4" fill="#ffb020"/>
     
 
   <text x="190" y="144" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#ff4d4f">Hard</text>
-  <text x="420" y="144" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#9a9ab0" text-anchor="end">3/967</text>
+  <text x="420" y="144" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#9a9ab0" text-anchor="end">3/970</text>
   
     <rect x="190" y="150" width="270" height="8" rx="4" fill="#2a2b3d"/>
     <rect x="190" y="150" width="1" height="8" rx="4" fill="#ff4d4f"/>
     
 
-  <text x="190" y="178" font-family="Segoe UI, Verdana, sans-serif" font-size="11" fill="#9a9ab0">Global Rank: #1,386,880</text>
+  <text x="190" y="178" font-family="Segoe UI, Verdana, sans-serif" font-size="11" fill="#9a9ab0">Global Rank: #1,377,467</text>
 </svg>
